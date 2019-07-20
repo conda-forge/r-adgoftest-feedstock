@@ -17,7 +17,7 @@ source:
 
 build:
   noarch: generic
-  number: 1001
+  number: 1002
 
   rpaths:
     - lib/R/lib/
@@ -38,13 +38,12 @@ test:
 about:
   home: https://CRAN.R-project.org/package=ADGofTest
   license: GPL
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+  license_family: GPL
   summary: |
     Anderson-Darling GoF test with p-value calculation based on Marsaglia's 2004 paper
     "Evaluating the Anderson-Darling Distribution"
-  license_family: GPL
 
 extra:
   recipe-maintainers:
-    - dpryan79
-    - johanneskoester
-    - bgruening
+    - conda-forge/r
