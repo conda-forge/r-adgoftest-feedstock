@@ -1,11 +1,11 @@
-About r-adgoftest
-=================
+About r-adgoftest-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-adgoftest-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ADGofTest
 
 Package license: GPL
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-adgoftest-feedstock/blob/main/LICENSE.txt)
 
 Summary: Anderson-Darling GoF test with p-value calculation based on Marsaglia's 2004 paper
 "Evaluating the Anderson-Darling Distribution"
